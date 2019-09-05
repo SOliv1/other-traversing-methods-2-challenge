@@ -1,120 +1,36 @@
 
-.container{
+    td, th {
 
-  display: inline-block;
+      width: 5rem;
 
-  vertical-align: top;
+      height: 2rem;
 
-  font-size: 0px;
+      border: 1px solid #ccc;
 
-}
+      text-align: center;
 
-.theButton {
+    }
 
-  height: 80px;
+    th {
 
-  width: 266px;
+      background: lightblue;
 
-  border-radius: 8px;
+      border-color: white;
 
-  text-align: center;
+    }
 
-  background-color: #555;
+    body {
 
-  color: #FFF;
+      padding: 1rem;
 
-  font-family: dosis;
+      font-family: Roboto;
 
-  font-size: 30px;
+    }
 
-  padding-top: 30px;
+    /*class to be added to jquery function to change row colors*/
 
-   border: solid 2px #fff;   /* border used to stop jump when border is applied*/
+    .selection{
 
-}
+      background-color:  #c65353;
 
-.superButton {
-
-  height: 80px;
-
-  width: 100%;
-
-  border-radius: 8px;
-
-  text-align: center;
-
-  background-color: #555;
-
-  color: #FFF;
-
-  font-family: dosis;
-
-  font-size: 30px;
-
-  padding-top: 30px;
-
-   /* display: none;*/
-
-   border: solid 2px #fff;   /* border used to stop jump when border is applied*/
-
-}
-
-
-
-p{
-
-	font-family: dosis;
-
-	font-size: 20px;
-
-	margin-left: 10px;
-
-	width:240px;
-
-}
-
-.makeBlue{
-
-   background-color: #81BBC9;
-
-}
-
-
-
-.makeBorder{
-
-	border: solid 2px #000;
-
-}
-
-.green{
-
-  background-color: #008000;
-
-}
-
-.red{
-
-  background-color:   #FF0000;
-
-}
-
-.blue{
-
-  background-color:   #0000FF;
-
-}
-
-.selected{
-
-    background-color: #F07D00;
-
-}
-
-/*make sure to add after all other color classes to advoid cascade issues*/
-
-.makeBlack{
-
-   background-color:  #000000;
-
-} 
+    }
